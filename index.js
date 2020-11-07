@@ -11,6 +11,10 @@ function nestedTarget()
 
 function deepestChild()
 {
-  const grandNode = document.getElementById('grand-node');
-  while(granNode.)
+  let grandNode = document.getElementById('grand-node');
+  while(grandNode.children[0] != NULL){
+    grandNode = grandNode.children[0];
+  }
+
+  return grandNode;
 }

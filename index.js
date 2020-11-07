@@ -12,7 +12,7 @@ function nestedTarget()
 function deepestChild()
 {
   let grandNode = document.getElementById('grand-node');
-  while(grandNode.children[0] != NULL){
+  while(grandNode.children[0] != null){
     grandNode = grandNode.children[0];
   }
 
